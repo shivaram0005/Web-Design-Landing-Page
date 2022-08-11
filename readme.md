@@ -3,7 +3,7 @@
 ### By Thalloju Shivaram
 
 
-## 🔗Live Link -: [Web-Design Landing Page ](https://project8-web-design.netlify.app//)
+## 🔗Live Link -: [Web-Design Landing Page ](https://webdesignland.netlify.app/)
  
 
 ---
