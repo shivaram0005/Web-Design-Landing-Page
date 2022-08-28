@@ -45,6 +45,10 @@ nav .signin-btn{
     padding: 4px 12px;
     border-radius: 50px;
 }
+nav .barss{
+    display: none;
+}
+
 .intro-section{
     display: flex;
     flex-direction: row;
@@ -95,12 +99,12 @@ nav .signin-btn{
 .intro-section .imgs-div img:nth-child(3){
     width: 650px;
     position: relative;
-    top: -60px;
-    left: -110px;
+    top: 50px;
+    left: -200px;
 }
 .intro-section .imgs-div img:nth-child(1){
     position: relative;
-    top: 500px;
+    top: 100px;
     left: -150px;
     width: 100px;
 }
@@ -109,4 +113,36 @@ nav .signin-btn{
     position: relative;
     top: 400px;
     left: -200px;
+}
+
+
+@media screen and (max-width:1300px) {
+    nav .nav-items{
+        display: none;
+    }
+    nav .barss{
+        display: block;
+    }
+    nav .signin-btn{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:797px) {
+    .intro-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    
+
+    .intro-section .left-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: -200px;
+    }
 }
