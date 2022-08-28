@@ -111,7 +111,7 @@ nav .barss{
 .intro-section .imgs-div img:nth-child(2)
 {
     position: relative;
-    top: 400px;
+    top: 13px;
     left: -200px;
 }
 
@@ -135,7 +135,12 @@ nav .barss{
         flex-direction: column-reverse;
     }
 
-    
+    /* .imgs-div img{
+        position: relative;
+        right: 100px;
+        width: 400px;
+        height: 400px;
+    } */
 
     .intro-section .left-section{
         display: flex;
